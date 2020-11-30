@@ -1,5 +1,5 @@
 import { _decorator, Component, Node } from 'cc';
-// import * as BULL from '../index';
+import * as BULL from '../index';
 const { ccclass, property } = _decorator;
 
 @ccclass('GameCore')
@@ -13,10 +13,10 @@ export class GameCore extends Component {
 
     start () {
         // Your initialization goes here.
-        // console.log(BULL.Core.DetectUserInfo.aaa());
-        // console.log(BULL.Core.DetectDevice.bbb());
-        // console.log(BULL.Helper.Math.ccc());
-        // console.log(BULL.Helper.Tool.ddd());
+        console.log(BULL.Core.DetectUserInfo.aaa());
+        console.log(BULL.Core.DetectDevice.bbb());
+        console.log(BULL.Helper.Math.ccc());
+        console.log(BULL.Helper.Tool.ddd());
     }
 
     // update (deltaTime: number) {

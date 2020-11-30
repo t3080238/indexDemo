@@ -25,7 +25,7 @@
         "__id__": 7
       },
       {
-        "__id__": 12
+        "__id__": 13
       }
     ],
     "_active": true,
@@ -33,7 +33,7 @@
     "_prefab": null,
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 15
+      "__id__": 17
     },
     "_id": "83948238-35cc-41a6-8cce-69a11fdc4e98"
   },
@@ -126,16 +126,16 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
+      "x": -0.11644306079290591,
+      "y": 7.541344702638617,
+      "z": 9.78011058595657
     },
     "_lrot": {
       "__type__": "cc.Quat",
-      "x": 0,
-      "y": 0,
-      "z": 0,
-      "w": 1
+      "x": -0.3194269003329361,
+      "y": -0.00572692805829822,
+      "z": -0.0019305097111738726,
+      "w": 0.9475916476895323
     },
     "_lscale": {
       "__type__": "cc.Vec3",
@@ -146,9 +146,9 @@
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
+      "x": -37.25724503184826,
+      "y": -0.6925447541369278,
+      "z": 3.155706598014583e-15
     },
     "_id": "c9DMICJLFO5IeO07EPon7U"
   },
@@ -210,6 +210,9 @@
       },
       {
         "__id__": 11
+      },
+      {
+        "__id__": 12
       }
     ],
     "_prefab": null,
@@ -320,6 +323,30 @@
     "_id": "69nq4EwXBE4YE+fVeL9CF6"
   },
   {
+    "__type__": "cc.BoxColliderComponent",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 7
+    },
+    "_enabled": true,
+    "_material": null,
+    "_isTrigger": false,
+    "_center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_size": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_id": "44PP3SJKVEu4ErlI8z324S"
+  },
+  {
     "__type__": "cc.Node",
     "_name": "Plane",
     "_objFlags": 0,
@@ -330,7 +357,10 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 13
+        "__id__": 14
+      },
+      {
+        "__id__": 16
       }
     ],
     "_prefab": null,
@@ -367,7 +397,7 @@
     "_name": "Plane<ModelComponent>",
     "_objFlags": 0,
     "node": {
-      "__id__": 12
+      "__id__": 13
     },
     "_enabled": true,
     "_materials": [
@@ -377,7 +407,7 @@
     ],
     "_visFlags": 0,
     "lightmapSettings": {
-      "__id__": 14
+      "__id__": 15
     },
     "_mesh": {
       "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@2e76e"
@@ -403,15 +433,39 @@
     "_lightmapSize": 64
   },
   {
+    "__type__": "cc.BoxColliderComponent",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 13
+    },
+    "_enabled": true,
+    "_material": null,
+    "_isTrigger": false,
+    "_center": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_size": {
+      "__type__": "cc.Vec3",
+      "x": 10,
+      "y": 0.001,
+      "z": 10
+    },
+    "_id": "b9YK/NhFdCO4yqT++1V4T9"
+  },
+  {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 16
+      "__id__": 18
     },
     "planarShadows": {
-      "__id__": 17
+      "__id__": 19
     },
     "_skybox": {
-      "__id__": 18
+      "__id__": 20
     }
   },
   {

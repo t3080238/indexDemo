@@ -1,5 +1,5 @@
 export default class Tool {
     public static ddd() {
-        return 'dd';
+        return 'Tool';
     }
 }

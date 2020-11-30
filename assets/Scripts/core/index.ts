@@ -1,2 +1,2 @@
 export { default as DetectDevice } from './detectDevice';
-// export { default as DetectUserInfo } from './detectUserInfo';
+export { default as DetectUserInfo } from './detectUserInfo';
